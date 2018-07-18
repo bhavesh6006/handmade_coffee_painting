@@ -1,0 +1,42 @@
+body {  
+    font-family: 'Roboto', sans-serif; 
+}
+
+.custom-image {
+    height: 400px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 20px;
+    color: #bf4803;
+    font-weight: bold;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.custom-container{
+    max-width: 900px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.image-container {
+    margin: 20px 10px 10px 10px;
+    padding: 10px 0;
+    box-shadow: 0 1px 3px 7px #928c8c;
+}
+
+.mar_t_10 {
+    margin-top: 10px;
+}
+
+.address-div {
+    position: relative;
+    margin: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
