@@ -19,30 +19,39 @@
 		    }
 
 		    .price {
-		        font-size: 25px;
+		        font-size: 20px;
                 color: #bf4803;
                 font-weight: bold;
+		    }
+
+		    .width-100 {
+		        width: 100%;
+		    }
+
+		    .custom-container{
+		        max-width: 900px;
+		        width: 100%;
 		    }
 		</style>
 	</head>
 	<body>
 	    <div class="content-wrapper">
             <section class="content">
-                <div class="container">
+                <div class="container custom-container">
                     <div class="row text-center">
-                        <img src="./src/images/Title.png">
+                        <img class="img-responsive width-100" src="./src/images/Title.png">
                     </div>
 
                     <div class="text-center">
                         <div class="row">
                             <div class="col-md-6">
-                                <img class="custom-image" src="./src/images/1.jpg">
-                                <p class="price">Only @499</p>
+                                <img class="custom-image img-responsive" src="./src/images/1.jpg">
+                                <p class="price">Only @499 (Size 8" X 10")</p>
                             </div>
 
                             <div class="col-md-6">
-                                <img class="custom-image" src="./src/images/10.jpg">
-                                <p class="price">Only @499</p>
+                                <img class="custom-image img-responsive" src="./src/images/10.jpg">
+                                <p class="price">Only @499 (Size 8" X 10")</p>
                             </div>
                         </div>
                     </div>
