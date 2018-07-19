@@ -1,5 +1,5 @@
 body {  
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
 .custom-image {
@@ -8,9 +8,10 @@ body {
 }
 
 .price {
-    font-size: 20px;
-    color: #bf4803;
+    font-size: 22px;
+    color: #ffffff;
     font-weight: bold;
+    margin: 10px 0;
 }
 
 .width-100 {
@@ -26,7 +27,7 @@ body {
 .image-container {
     margin: 20px 10px 10px 10px;
     padding: 10px 0;
-    box-shadow: 0 1px 3px 7px #928c8c;
+    box-shadow: 0 1px 3px 7px #ffffff;
 }
 
 .mar_t_10 {
@@ -39,4 +40,12 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+.custom-content-wrapper {
+    background-image: linear-gradient(to right top, #ffffff, #dad7d9, #b9b0b0, #968b86, #6f6a5f);
+}
+
+.mar_all_0 {
+    margin: 0;
 }
